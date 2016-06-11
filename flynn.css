@@ -1,7 +1,8 @@
 .flynn {
-	background-image:url('flynn.png');
-	height:64px;
-	width:48px;
+	background-image: url('flynn.png');
+	height: 64px;
+	width: 48px;
+	display: inline-block;
 }
 
 .flynn1 {background-position:0px 0px}

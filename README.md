@@ -10,4 +10,6 @@ Feel free to take the code for your own purposes. Have fun and please let me kno
 
 26 frames of animation, so you can change that flynn1 up to flynn26
 
+Flynn is 48px wide and 64px in height.
+
 Open index.html and view source code for an example of how to use Flynn.
