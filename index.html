@@ -1,0 +1,50 @@
+<html>
+<head>
+<style>
+body {
+	background-color: #000;
+	color: #fff;
+}
+</style>
+<link rel="stylesheet" type="text/css" href="flynn.css">
+</head>
+<body>
+
+<div class="blackbox">
+<div class="flynn flynn1" id="flynn"></div>
+&lt;div class="flynn flynn<span id="flynntext">0</span>"&gt;&lt;/div&gt;
+</div>
+
+</body>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script>
+	
+var flynnId = 1;
+
+function showNextFlynn() {
+
+	// show the next flynn
+	if (flynnId == 1) {
+		// if we are on the first one, we need to remove the last one, flynn26
+		$('#flynn').removeClass('flynn26');
+	} else {
+		// otherwise, remove the previous one
+		$('#flynn').removeClass('flynn'+(flynnId-1));
+	}
+	
+	// add the current class we are on now
+	$('#flynn').addClass('flynn'+flynnId);
+	
+	// show what frame of animation we are on
+	$('#flynntext').html(flynnId);
+	
+	// increment flynnid, or if at 26, wrap back to 1
+	flynnId++;
+	if (flynnId == 27) flynnId = 1;
+}
+
+setInterval(showNextFlynn, 500);
+
+</script>
+
+</html>
