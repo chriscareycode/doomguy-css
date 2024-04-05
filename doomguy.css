@@ -1,0 +1,34 @@
+.doomguy {
+	background-image: url('doomguy.png');
+	height: 64px;
+	width: 48px;
+	display: inline-block;
+}
+
+.doomguy1 {background-position:0px 0px}
+.doomguy2 {background-position:0px -64px}
+.doomguy3 {background-position:0px -128px;}
+.doomguy4 {background-position:0px -192px;}
+.doomguy5 {background-position:0px -256px;}
+.doomguy6 {background-position:0px -320px;}
+.doomguy7 {background-position:0px -384px;}
+.doomguy8 {background-position:0px -448px;}
+.doomguy9 {background-position:0px -512px;}
+.doomguy10 {background-position:0px -576px;} /* this one is an exception to the 64 rule */
+.doomguy11 {background-position:0px -640px}
+.doomguy12 {background-position:0px -704px}
+.doomguy13 {background-position:0px -768px;}
+.doomguy14 {background-position:0px -832px;}
+.doomguy15 {background-position:0px -896px;}
+.doomguy16 {background-position:0px -960px;}
+.doomguy17 {background-position:0px -1024px;}
+.doomguy18 {background-position:0px -1088px;}
+.doomguy19 {background-position:0px -1152px;}
+.doomguy20 {background-position:0px -1216px;}
+.doomguy21 {background-position:0px -1280px;}
+.doomguy22 {background-position:0px -1344px;}
+.doomguy23 {background-position:0px -1408px;}
+.doomguy24 {background-position:0px -1472px;}
+.doomguy25 {background-position:0px -1536px;}
+.doomguy26 {background-position:0px -1600px;}
+.doomguy27 {background-position:0px -1664px;}
