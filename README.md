@@ -1,10 +1,10 @@
 # doomguy-css
 
-Doomguy as a CSS sprite for your project
+Doomguy from the video game Doom (1993) as a CSS sprite for your project.
 
 ![Doomguy Animation](doomguy-animation.gif?raw=true "doomguy Animation")
 
-26 frames of animation, so you can change that doomguy1 up to doomguy26
+26 frames of animation, so you can change that doomguy1 up to doomguy26.
 
 Doomguy is 48px wide and 64px in height.
 
